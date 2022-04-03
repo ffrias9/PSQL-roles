@@ -1,0 +1,8 @@
+---
+- name: "PSQL"
+  hosts: psql
+  become: yes
+  roles:
+    - postgresql-pretasks
+    - postgresql-check
+    - postgresql-dbANDuser
