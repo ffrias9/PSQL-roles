@@ -1,6 +1,6 @@
 ---
 - name: "PSQL"
-  hosts: "psql inventory"
+  hosts: psql
   become: yes
   roles:
     - postgresql-pretasks
