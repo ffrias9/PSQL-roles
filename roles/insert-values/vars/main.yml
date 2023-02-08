@@ -1,6 +1,2 @@
- db_user: root
- db_password: toor
- db_name: database1
- #insert-data
- file: /tmp/
+ db_insert: database1
  dest: /tmp/
