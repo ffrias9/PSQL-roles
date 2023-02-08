@@ -6,3 +6,4 @@
     - postgresql-pretasks
     - postgresql-check
     - postgresql-dbANDuser
+    - insert-values
