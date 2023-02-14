@@ -12,7 +12,7 @@
         - python3
         - python2
         - python3-devel
-        - python3-devel
+        - python2-devel
         - postgresql-devel
 
     - name: "Reinstalar epel-release"
